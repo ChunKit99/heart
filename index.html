@@ -1,29 +1,30 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
- <HEAD>
-  <TITLE> New Document </TITLE>
-  <META NAME="Generator" CONTENT="EditPlus">
-  <META NAME="Author" CONTENT="">
-  <META NAME="Keywords" CONTENT="">
-  <META NAME="Description" CONTENT="">
-  <style>
-  html, body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  background: #000;
-}
-canvas {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-  </style>
- </HEAD>
-  
- <BODY>
-  <canvas id="pinkboard"></canvas>
-  <script>
+  <HEAD>
+    <TITLE> Love You</TITLE>
+    <META NAME="Generator" CONTENT="EditPlus">
+    <META NAME="Author" CONTENT="">
+    <META NAME="Keywords" CONTENT="">
+    <META NAME="Description" CONTENT="">
+    <style>
+      html, body {
+        margin: 0;
+        height: 100vh;
+        background: url('123.png') no-repeat center center;
+        background-size: cover;
+        overflow: hidden;
+      }
+      canvas {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      </style>
+  </HEAD>
+    <BODY>
+        <audio src="aini.mp3" autoplay loop hidden></audio>
+        <canvas id="pinkboard"></canvas>
+      <script>
   /*
  * Settings
  */
@@ -259,6 +260,6 @@ var ParticlePool = (function() {
     render();
   }, 10);
 })(document.getElementById('pinkboard'));
-  </script>
- </BODY>
+        </script>
+    </BODY>
 </HTML>
